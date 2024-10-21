@@ -410,7 +410,9 @@ header {
   color: #f4f4fd;
   max-width: 264px;
 }
-
+.info-footer {
+  margin-left: 80px;
+}
 .subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -437,7 +439,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,7 +457,9 @@ header {
 }
 .icon-footer-btn {
   margin-left: 16px;
+  fill: white;
 }
+
 /* MODAL WINDOW */
 
 .backdrop {
